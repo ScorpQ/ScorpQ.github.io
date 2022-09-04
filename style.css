@@ -1,9 +1,73 @@
-span {
-    font-weight: 900;
-    font-size: 2rem;
-    color:purple;
+/*! GLOBAL STYLE */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
-p{
-    font-weight: 900;
-    font-size: 1.5rem;
+body{
+    background-image: url(toolkit/backImg.png);
+    background-size: 100% 100%;
+    margin: 0 5%;
 }
+/*! GLOBAL STYLE END */
+
+
+/*! HEADER SECTION */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 2rem 0 2rem;
+    height: 100px;
+    color: #fff;
+    border-bottom: 4px solid rgb(238, 40, 40, 0.2);
+}
+header .logo{
+    position: relative;
+    font-size: 25px;
+}
+header .logo span{
+    color: #dc2a2a;
+}
+header .logo .nameSpan{
+    position: absolute;
+    font-size: 11px;
+    top: 84%;
+    left: 2%;
+}
+header .headerBtn{
+    display: flex;
+    justify-content: space-between;
+    width: 18%;
+}
+header .headBtn {
+    padding: 1rem;
+
+    color: rgb(238, 40, 40, 0.7);
+    text-decoration: none;
+    transition: all 0.3s ease;
+
+    border-radius: 10px;
+    background-color: rgb(66, 63, 63, 0.7);
+}
+header .headBtn:hover{
+    background-color: rgb(66, 63, 63, 1);
+}
+header .indivualLink{
+    text-decoration: none;
+    color: #dc2a2a;
+}
+/* ! HEADER SECTION END */
+
+
+/* ! HERO SECTION */
+
+
+
+/*! HERO SECTION END*/
+
+
+
+
